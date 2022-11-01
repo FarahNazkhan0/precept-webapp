@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #e8eaff;
+}
+
+.auth-form-container, .loginform {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: black;
+  align-items: left;
+}
+
+label {
+  text-align: left;
+  padding: 0.25rem 0;
+  color:darkslategray;
+  font-size: small;
+}
+
+h1 {
+  text-align: left;
+  color: #3452fe
+}
+
+p {
+  text-align: left;
+  color: darkslategray
+}
+
+.header {
+  line-height: 10;
+}
+
+input {
+  width: 340px;
+  margin: 0 auto;
+  padding: 10px 10px;
+}
+
+button {
+ margin-left: -50px;
+}
+
+.btn-login{
+  background-color: #3452fe;
+  color: white;
+  padding: 10px 10px;
+  width: 100px;
+  display: inline-block;
+  margin: 5px;
+  margin-left: -50px;
+}
+
+.btn-signup{
+  background-color: white;
+  outline: blue;
+  color: blue;
+  padding: 10px 10px;
+  width: 100px;
+  display: inline-block;
+}
+
+.btngroup{
+  margin-left: -58%;
+}
+
+.backgroundstyle{
+  margin: 20px;
+  padding:60px
+}
+
+.checkboxrm {
+  transform: scale(0.6);
+}
+
+.textalign{
+  display: flex;
+  justify-content: flex-start;
+}
